@@ -1,0 +1,8 @@
+{
+  "base_log_dir": "logs",
+  "log_name": "app_logger",
+  "max_log_size": 5242880, 
+  "backup_count": 3,
+  "success_log_dir": "success",
+  "error_log_dir": "error"
+}
