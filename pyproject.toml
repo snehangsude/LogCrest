@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "logcrest"
-version = "1.0.0"
+version = "1.0.1"
 description = "A production-grade, asynchronous logging decorator for Python."
 authors = [
     { name = "Snehangsu De", email = "desnehangsu@gmail.com" }
