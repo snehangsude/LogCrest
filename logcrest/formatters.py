@@ -42,7 +42,7 @@ class ColorFormatter(logging.Formatter, IFormatter):
     def format(self, record):
         color = self.COLORS.get(record.levelname, self.RESET)
         trace = getattr(record, 'trace_id', 'Global')
-        # Clean format for humans
+        # Clean format for debugging in terminal
         log_fmt = f"{color}[%(levelname)s]{self.RESET} [{trace}] %(funcName)s: %(message)s"
         return logging.Formatter(log_fmt).format(record)
 
