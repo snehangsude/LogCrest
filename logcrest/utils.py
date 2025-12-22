@@ -21,3 +21,4 @@ class LogProxy:
 
 # Primary entry point for logging
 log = LogProxy()
+
